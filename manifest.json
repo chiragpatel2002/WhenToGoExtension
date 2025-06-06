@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "When To GO",
+  "description": "Displays Time To Go Home",
+  "version": "6.9",
+  "host_permissions": [
+    "https://sitopsliveapigateway.shaligraminfotech.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ],
+  "icons": { "16": "logo.png", "48": "logo.png", "128": "logo.png" }
+}
